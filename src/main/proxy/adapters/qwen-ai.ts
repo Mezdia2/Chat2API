@@ -36,6 +36,7 @@ const MODEL_ALIASES: Record<string, string> = {
   qwen: 'qwen3.7-max',
   qwen3: 'qwen3.7-max',
   'qwen3.7': 'qwen3.7-max',
+  'qwen3.8': 'qwen3.8-max-preview',
   'qwen3.6': 'qwen3.6-plus',
   'qwen3.6-35b': 'qwen3.6-35b-a3b',
   'qwen3.6-27b': 'qwen3.6-27b',

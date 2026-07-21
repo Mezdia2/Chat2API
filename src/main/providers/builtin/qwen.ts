@@ -18,6 +18,7 @@ export const qwenConfig: BuiltinProviderConfig = {
   supportedModels: [
     'Qwen3.6',
     'Qwen3.7-Max',
+    'Qwen3.8-Max-Preview',
     'Qwen3.5-Flash',
     'Qwen3-Max',
     'Qwen3-Max-Thinking-Preview',
@@ -26,6 +27,7 @@ export const qwenConfig: BuiltinProviderConfig = {
   modelMappings: {
     'Qwen3.6': 'Qwen',
     'Qwen3.7-Max': 'Qwen3.7-Max',
+    'Qwen3.8-Max-Preview': 'qwen3.8-max-preview',
     'Qwen3.5-Flash': 'Qwen3.5-Flash',
     'Qwen3-Max': 'Qwen3-Max',
     'Qwen3-Max-Thinking-Preview': 'Qwen3-Max-Thinking-Preview',

@@ -23,6 +23,7 @@ export const qwenAiConfig: BuiltinProviderConfig = {
   },
   supportedModels: [
     'Qwen3.7-Max',
+    'Qwen3.8-Max-Preview',
     'Qwen3.6-Plus',
     'Qwen3.6-35B-A3B',
     'Qwen3.6-27B',
@@ -30,6 +31,7 @@ export const qwenAiConfig: BuiltinProviderConfig = {
   ],
   modelMappings: {
     'Qwen3.7-Max': 'qwen3.7-max',
+    'Qwen3.8-Max-Preview': 'qwen3.8-max-preview',
     'Qwen3.6-Plus': 'qwen3.6-plus',
     'Qwen3.6-35B-A3B': 'qwen3.6-35b-a3b',
     'Qwen3.6-27B': 'qwen3.6-27b',
